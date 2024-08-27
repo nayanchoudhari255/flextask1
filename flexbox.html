@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex task 1</title>
+    <style>
+        .main{
+            display: flex;
+            justify-content: center;
+        }
+        .parent{
+           display: flex;
+         flex-direction: column;
+           align-items: center;
+          background-color: blueviolet;
+          border-radius: 5px;
+          height: 600px;
+          width: 900px;
+          margin-top: 20px;
+          padding: 40px;
+          
+        }
+        .item{
+          
+           border-radius: 5px;
+         height: 350px;
+           width: 300px;
+           margin: 10px;
+           background-color: white;
+           align-self: flex-end;
+           display:flex;
+          align-items: center;
+           flex-direction: column;
+           
+        }
+    .second{
+        height: 400px;
+        padding: 10px;
+       
+    }
+        .heading{
+            text-align: center;
+            
+            text-transform: uppercase;
+            font-weight: 500;
+            
+        }
+        .heading h2{
+            color: lightgray;
+        }
+        .heading h1{
+            color: white;
+        }
+        .childs{
+            display: flex;
+        
+            margin-top: 30px;
+           
+        }
+        span{
+           
+            font-size: 60px;
+        }
+        h2{
+            color: gold;
+            font-weight: 300;
+        }
+        h3{
+          margin-top: -10px;
+            display: inline;
+            font-size: 30px;
+            color: blueviolet;
+            font-weight: 400;
+            background-color: bisque;
+        }
+        h1{
+            color: blueviolet;
+            margin-top: -10px;
+        }
+      
+        .p{
+          margin-top: -12px;
+            height: 70px;
+            width: 200px;
+            text-align:center;
+        }
+        a{
+            margin-top: 20px;
+            font-size: 20px;
+            color: blueviolet;
+        }
+        button{
+            margin-top: 20px;
+            font-size: 20px;
+           background-color: blueviolet;
+           color: white;
+            height: 50px;
+            width: 200px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+       
+        <div class="parent">
+            <div class="heading">
+                <h2>Start Now</h2>
+                <h1>Your Plan, Your Choice.</h1>
+               </div>
+               <div class="childs">
+                
+                  <div class="item first">
+<span>&#128522;</span>
+<h2>Starter</h2>
+<h1>$49</h1>
+<div class="p">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ea!</p>
+</div>
+<a href="#">Get Started</a>
+
+
+                  </div>
+            <div class="item second">
+                <h3>Most Popular</h3>
+                <span>  &#128513;</span>
+                <h2>Personal</h2>
+                <h1>$99</h1>
+                
+<div class="p">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ea!</p>
+</div>
+<button>Get Started</button>
+            </div>
+            <div class="item third">
+                <span>&#128559;</span>
+                <h2>Team</h2>
+                <h1>$229</h1>
+                <div class="p">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ea!</p>
+                  
+                </div>
+                <a href="#">Get Started</a>
+            </div> 
+               </div>
+           
+        </div>
+    </div>
+</body>
+</html>
